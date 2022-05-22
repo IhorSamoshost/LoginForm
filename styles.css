@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: "Baloo Bhai";
+    src: url("fonts/BalooBhai-Regular.woff2") format('woff2') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: seashell;
+}
+
+main {
+    margin-top: 5%;
+    width: 70%;
+    height: 35%;
+    background-color: aqua;
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: -5px 10px 15px 3px rgba(160, 165, 162, 0.56);
+}
+
+.submain {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 5%;
+}
+
+.right {
+    background-color: red;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.right-upper-block {
+    margin-top: 30%;
+    width: 70%;
+    text-align: center;
+}
+
+.right-down-block {
+    padding-top: 5%;
+    margin-bottom: 50%;
+    width: 70%;
+    text-align: center;
+}
+
+.left-title-font {
+    font-family: Baloo Bhai, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.right-title-font {
+    font-family: Baloo Bhai, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+}
+
+.right-message-font {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+}
+
+.socials {
+    height: 10%;
+    width: 100%;
+    min-height: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+    /*align-items: flex-start;*/
+    margin-top: 9%;
+    /*height: 1em;*/
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*object-fit: cover;*/
+}
+
+.social-icon {
+    height: 100%;
+}
+
+.twitter {
+    margin-right: 2%;
+}
+
+.fb {
+    margin-left: 2%;
+}
+
+.left-message {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.top {
+    margin-top: 9%;
+}
+
+.down {
+    margin-top: 3%;
+}
+
+.input_form {
+    margin-top: 5%;
+    height: 50px;
+    width: 350px;
+    min-height: 30px;
+    padding-left: 5%;
+    background-color: rgba(215, 207, 211, 0.33);
+    border: none;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    left: 0;
+    margin-top: 15%;
+    text-transform: uppercase;
+    background-color: #ED4C5C;
+    border-width: 0;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: brown;
+}
